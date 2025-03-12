@@ -1,0 +1,202 @@
+.wpmyprod-products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.wpmyprod-products-table th,
+.wpmyprod-products-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.wpmyprod-products-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+.wpmyprod-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.wpmyprod-btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.wpmyprod-btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Product Form */
+.wpmyprod-form-container {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.wpmyprod-form-group {
+    margin-bottom: 15px;
+}
+
+.wpmyprod-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.wpmyprod-form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.wpmyprod-required {
+    color: #f44336;
+}
+
+.wpmyprod-image-preview {
+    max-width: 150px;
+    height: auto;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+
+.wpmyprod-pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.wpmyprod-pagination .page-numbers {
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+}
+
+.wpmyprod-pagination .current {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+/* Form Styles */
+.woocommerce-form-add-product,
+.woocommerce-form-edit-product {
+    margin: 20px 0;
+}
+
+.woocommerce-form-add-product .form-row,
+.woocommerce-form-edit-product .form-row {
+    margin-bottom: 20px;
+}
+
+.woocommerce-form-add-product label,
+.woocommerce-form-edit-product label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.woocommerce-form-add-product input.input-text,
+.woocommerce-form-edit-product input.input-text {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Product Status Indicators */
+.product-status-published {
+    color: #7ad03a;
+    font-weight: bold;
+}
+
+.product-status-pending {
+    color: #ffba00;
+    font-weight: bold;
+}
+
+.product-status-draft {
+    color: #999;
+    font-weight: bold;
+}
+
+/* Product Image Upload */
+.product-image-wrapper {
+    margin-top: 5px;
+}
+
+#product_image_preview {
+    background-color: #f7f7f7;
+}
+
+/* Product Table */
+.woocommerce-MyAccount-content .shop_table .product-image {
+    width: 70px;
+}
+
+.woocommerce-MyAccount-content .shop_table .product-actions {
+    width: 160px;
+}
+
+.woocommerce-MyAccount-content .shop_table .button {
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+/* Pagination */
+.products-pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.products-pagination .pagination-links {
+    display: inline-block;
+}
+
+.products-pagination .page-numbers {
+    padding: 5px 10px;
+    margin: 0 3px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.products-pagination .page-numbers.current {
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+
+/* Add spacing between buttons */
+.woocommerce-MyAccount-content .button {
+    margin-right: 5px;
+}
+
+/* WYSIWYG Editor */
+.wp-editor-container {
+    border: 1px solid #ddd;
+}
+
+/* Make sure form elements are responsive */
+@media screen and (max-width: 768px) {
+
+    .woocommerce-form-add-product .form-row-first,
+    .woocommerce-form-add-product .form-row-last,
+    .woocommerce-form-edit-product .form-row-first,
+    .woocommerce-form-edit-product .form-row-last {
+        width: 100%;
+        float: none;
+    }
+}
