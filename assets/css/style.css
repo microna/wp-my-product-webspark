@@ -179,17 +179,14 @@
     font-weight: bold;
 }
 
-/* Add spacing between buttons */
 .woocommerce-MyAccount-content .button {
     margin-right: 5px;
 }
 
-/* WYSIWYG Editor */
 .wp-editor-container {
     border: 1px solid #ddd;
 }
 
-/* Make sure form elements are responsive */
 @media screen and (max-width: 768px) {
 
     .woocommerce-form-add-product .form-row-first,

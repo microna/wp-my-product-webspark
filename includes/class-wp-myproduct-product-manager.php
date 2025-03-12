@@ -125,7 +125,6 @@ class WP_MyProduct_Product_Manager {
         $message .= '<p style="margin-top: 30px; font-size: 12px; color: #666;">This test notification was sent from your WooCommerce store.</p>';
         $message .= '</div>';
         
-        // Set email headers
         $headers = array(
             'Content-Type: text/html; charset=UTF-8',
             'From: ' . $site_title . ' <' . $email_to . '>',

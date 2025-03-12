@@ -113,8 +113,7 @@ if (empty($products)) : ?>
         <?php endif; ?>
 
         <?php
-                // Show page numbers
-                for ($i = 1; $i <= $max_pages; $i++) {
+=                for ($i = 1; $i <= $max_pages; $i++) {
                     if ($i == $current_page) {
                         echo '<span class="page-numbers current">' . $i . '</span>';
                     } else {
